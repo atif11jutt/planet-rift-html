@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica-Bold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "dintnext";
+  src: url("../fonts/DINNextLTPro-Black.otf");
+}
+
+.font-din{
+    font-family: "dintnext";
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+img {
+  max-width: 100%;
+}
+
+body.home {
+  /* background-image: url("../images/planet.png"); */
+  background-color: #231f37;
+  /* background-size: 50%; */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* min-height: 100vh; */
+}
+
+body {
+  background-image: url("../images/stars-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.hall {
+  background-image: url("../images/hall-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body.battle {
+  background-image: url("../images/battle/battle-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navi-bar {
+  background: #00000088;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100000000;
+}
+.navbar-brand{
+    padding: 0 !important;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.nav-link img {
+  height: 4vw;
+  margin-top: 1vw;
+}
+
+.avatar {
+  width: 3.5rem;
+  margin-right: 0.75rem;
+}
+
+.text-white hr {
+  border-color: #ffc107;
+}
+
+.border-sp {
+  border: 3px solid #ffc1078a;
+  position: relative;
+  box-shadow: 2px 1px 0px 0px #dfc824;
+  padding: 4px;
+}
+
+.border-sp img {
+  border: 2px solid #dfc824;
+}
+
+.social-icon img {
+  width: 4.25vw;
+  height: auto;
+}
+a {
+  text-decoration: none !important;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+/*  */
+
+.bold-heading {
+  color: #12111e;
+  text-shadow: 0 0px 3px #fff;
+  font-size: 8vw;
+  font-weight: 900;
+  font-family: "dintnext";
+}
+
+.about-img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #5a00ff;
+  background-position: top center;
+  background-size: cover;
+}
+
+.about-img.about1 {
+  background-image: url(../images/about1.png);
+}
+
+.about-box {
+  background-color: #5a00ff22;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+/*  */
+
+.heading-pic {
+  width: 700px;
+}
+
+.hall-img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #ffb503;
+  box-shadow: 0 0 15px 5px #ffb503;
+  background-color: #5a00ff;
+  background-position: top center;
+  background-size: cover;
+}
+
+.hall-img.hall1 {
+  background-image: url(../images/about1.png);
+}
+
+.text-gold {
+  color: #ffb503;
+}
+
+/*  */
+
+.portfolio-cont {
+  position: absolute;
+  top: 45vw;
+  width: 100%;
+}
+
+.portfolio-cont2 {
+  top: 35vw;
+}
+
+.portfolio {
+  background: #fff;
+  min-height: 200px;
+}
+
+.portfolio.port-big {
+  min-height: 300px;
+}
+
+
+/* leaderboard */
+
+.leader-img1{
+    background-image: url(../images/leaderboard/explorer.png);
+    background-size: 100% 100%;
+    padding: 10% 18% 8% 32%;
+    line-height: 40px;
+    font-family: "dintnext";
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leader-img2{
+    background-image: url(../images/leaderboard/scholar.png);
+    background-size: 100% 100%;
+    padding: 10% 18% 8% 32%;
+    line-height: 40px;
+    font-family: "dintnext";
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leader-img3{
+    background-image: url(../images/leaderboard/mercenary.png);
+    background-size: 100% 100%;
+    padding: 10% 18% 16% 32%;
+    line-height: 40px;
+    font-family: "dintnext";
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pt-10 {
+    padding-top: 64px !important;
+}
