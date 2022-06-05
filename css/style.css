@@ -15,8 +15,8 @@
   src: url("../fonts/DINNextLTPro-Black.otf");
 }
 
-.font-din{
-    font-family: "dintnext";
+.font-din {
+  font-family: "dintnext";
 }
 
 body,
@@ -72,8 +72,8 @@ body.battle {
   left: 0;
   z-index: 100000000;
 }
-.navbar-brand{
-    padding: 0 !important;
+.navbar-brand {
+  padding: 0 !important;
 }
 
 .logo {
@@ -138,6 +138,19 @@ a {
   background-color: #5a00ff;
   background-position: top center;
   background-size: cover;
+  transition: 0.3s;
+}
+
+.about-img:hover {
+  opacity: 0.8;
+}
+
+.about-img + h4 {
+  transition: 0.3s;
+}
+
+.about-img:hover + h4 {
+  color: #ffb503;
 }
 
 .about-img.about1 {
@@ -197,43 +210,83 @@ a {
   min-height: 300px;
 }
 
-
 /* leaderboard */
 
-.leader-img1{
-    background-image: url(../images/leaderboard/explorer.png);
-    background-size: 100% 100%;
-    padding: 10% 18% 8% 32%;
-    line-height: 40px;
-    font-family: "dintnext";
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-between;
+.leader-img1 {
+  background-image: url(../images/leaderboard/explorer.png);
+  background-size: 100% 100%;
+  padding: 10% 18% 8% 32%;
+  line-height: 40px;
+  font-family: "dintnext";
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.leader-img2{
-    background-image: url(../images/leaderboard/scholar.png);
-    background-size: 100% 100%;
-    padding: 10% 18% 8% 32%;
-    line-height: 40px;
-    font-family: "dintnext";
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-between;
+.leader-img2 {
+  background-image: url(../images/leaderboard/scholar.png);
+  background-size: 100% 100%;
+  padding: 10% 18% 8% 32%;
+  line-height: 40px;
+  font-family: "dintnext";
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.leader-img3{
-    background-image: url(../images/leaderboard/mercenary.png);
-    background-size: 100% 100%;
-    padding: 10% 18% 16% 32%;
-    line-height: 40px;
-    font-family: "dintnext";
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-between;
+.leader-img3 {
+  background-image: url(../images/leaderboard/mercenary.png);
+  background-size: 100% 100%;
+  padding: 10% 18% 16% 32%;
+  line-height: 40px;
+  font-family: "dintnext";
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .pt-10 {
-    padding-top: 64px !important;
+  padding-top: 64px !important;
+}
+
+
+.hover-scale, .leader-img1, .leader-img2, .leader-img3, .hover-text-scale h4{
+  transition: 0.3s;
+}
+
+.hover-scale:hover{
+  transform: scale(1.1);
+}
+
+.leader-img1:hover, .leader-img2:hover, .leader-img3:hover{
+  color: #ffb503;
+}
+
+.hover-text-scale:hover h4{
+  transform: scale(1.2);
+}
+
+@media (max-width: 567px) {
+  .nav-link {
+    text-align: center;
+  }
+  .nav-link img {
+    height: 15vw;
+    margin-top: 1vw;
+  }
+  .social-icon img {
+    width: 12vw;
+    height: auto;
+  }
+  .social-icon {
+    text-align: center;
+  }
+  .navi-bar {
+    background: #000000d9;
+  }
+  .about-img {
+    height: 350px;
+    max-width: 300px;
+    margin: auto;
+}
 }
