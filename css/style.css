@@ -266,6 +266,10 @@ a {
   transform: scale(1.2);
 }
 
+.contact-img{
+  width: 300px;
+}
+
 @media (max-width: 900px) {
   .portfolio-cont {
     position: relative;
