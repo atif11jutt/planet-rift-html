@@ -203,11 +203,11 @@ a {
 
 .portfolio {
   background: #fff;
-  min-height: 200px;
+  min-height: 20vw;
 }
 
 .portfolio.port-big {
-  min-height: 300px;
+  min-height: 30vw;
 }
 
 /* leaderboard */
@@ -304,5 +304,15 @@ a {
 }
 .portfolio-cont {
   margin-top: -30vw;
+}
+
+.portfolio {
+  background: #fff;
+  min-height: 30vw;
+  margin-bottom: 2rem;
+}
+
+.portfolio.port-big {
+  min-height: 45vw;
 }
 }

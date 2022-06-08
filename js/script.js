@@ -2,7 +2,7 @@
     
     $("#home-slider").owlCarousel({
         items: 1,
-        autoplay: 1300,
+        autoplay: 1800,
         smartSpeed: 1300,
         slideBy: 1,
         loop: true,
