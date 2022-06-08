@@ -122,6 +122,14 @@ a {
 
 /*  */
 
+.main-banner{
+  background-image: url(../images/home/BG.png);
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 100vh;
+  width: 100%;
+}
+
 .bold-heading {
   color: #12111e;
   text-shadow: 0 0px 3px #fff;
@@ -270,12 +278,12 @@ a {
   width: 300px;
 }
 
-.navbar{
+.navi-bar{
   opacity: 0;
   transition: 0.3s;
 }
 
-.navi-bar:hover .navbar{
+.navi-bar:hover{
   opacity: 1;
 }
 
@@ -306,6 +314,7 @@ a {
   }
   .navi-bar {
     background: #000000d9;
+    opacity: 1;
   }
   .about-img {
     height: 350px;
