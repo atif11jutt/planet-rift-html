@@ -270,6 +270,16 @@ a {
   width: 300px;
 }
 
+.navbar{
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.navi-bar:hover .navbar{
+  opacity: 1;
+}
+
+
 @media (max-width: 900px) {
   .portfolio-cont {
     position: relative;
