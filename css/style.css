@@ -266,6 +266,15 @@ a {
   transform: scale(1.2);
 }
 
+@media (max-width: 900px) {
+  .portfolio-cont {
+    position: relative;
+    margin-top: -50vw;
+    top: auto;
+    width: 100%;
+}
+}
+
 @media (max-width: 567px) {
   .nav-link {
     text-align: center;
@@ -288,5 +297,8 @@ a {
     height: 350px;
     max-width: 300px;
     margin: auto;
+}
+.portfolio-cont {
+  margin-top: -30vw;
 }
 }
