@@ -283,6 +283,10 @@ a {
   transition: 0.3s;
 }
 
+.show-navi{
+  opacity: 1;
+}
+
 .navi-bar:hover{
   opacity: 1;
 }
